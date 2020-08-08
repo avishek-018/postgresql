@@ -14,12 +14,14 @@ Being a Windows user I will show the steps & all the hassles for **Windows** onl
 Notice that postgres is the default superuser here.
 ***Step3:*** From you Application menu pick the **PgAdmin4** and **SQL Shell** and drag them to your Desktop. 
 
-![enter image description here](https://i.ibb.co/bFFKpGQ/ins2.png =450x)
+<img src="https://i.ibb.co/bFFKpGQ/ins2.png" alt="drawing" width="450"/>
+
  - PgAdmin4 is the GUI version where you can manage all the works of Postgres
  - and SQL Shell is the CLI version(which we shall often use)
  
  ***Step4:*** Now just open you CMD or Any other windows CLI and type ***psql***
- ![enter image description here](https://i.ibb.co/JkvdNds/ins4-1.png =550x)
+ 
+ <img src="https://i.ibb.co/JkvdNds/ins4-1.png" alt="drawing" width="550"/>
 Command is not recognized!!! 😱 COOL DOWN i got you 🤓
 
 
@@ -31,10 +33,11 @@ Goto installation directory and copy the **bin** location
 Now simply add this to your system/user environment.  (You may go through [this](https://www.architectryan.com/2018/03/17/add-to-the-path-on-windows-10/) guide if you are new to environment variable setup)
 
 OK, NOW AGAIN, open you CMD or Any other windows CLI and type _**psql**_
-![ins3](https://i.ibb.co/thD7tst/ins3.jpg =420x)
 
+ <img src="https://i.ibb.co/thD7tst/ins3.jpg" alt="drawing" width="420"/>
 Hola!!! Now the command is recognized. Enter the password.
-![ins4](https://i.ibb.co/BwBHG8h/ins4.png =700x)
+
+<img src="https://i.ibb.co/BwBHG8h/ins4.png" alt="drawing" width="700"/>
 GOT another one!! 😛 ... Again Got YOU.
 
 ## Set the Default username
@@ -42,5 +45,6 @@ Open you CLI and just type
 
      set PGUSER=postgres
   Finally type ***psql*** and enter the pass.
-  ![ins5](https://i.ibb.co/1bpFZpM/ins5.png =800x)
+  
+  <img src="https://i.ibb.co/1bpFZpM/ins5.png" alt="drawing" width="800"/>
   Congratulations!!! You have overcome all the hassles 🎉
