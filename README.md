@@ -8,15 +8,18 @@ Being a Windows user I will show the steps & all the hassles for **Windows** onl
 
 ***Step1:*** Download the appropriate version from [here](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads).
 ***Step2:*** Install normally , give a password when prompted & let the installation finish.
-![ins1](https://i.ibb.co/wydj7x1/1.png)
+
+![enter image description here](https://i.ibb.co/x3xGPzb/1.png)
+
 Notice that postgres is the default superuser here.
 ***Step3:*** From you Application menu pick the **PgAdmin4** and **SQL Shell** and drag them to your Desktop. 
-![enter image description here](https://i.ibb.co/bFFKpGQ/ins2.png)
+
+![enter image description here](https://i.ibb.co/bFFKpGQ/ins2.png =450x)
  - PgAdmin4 is the GUI version where you can manage all the works of Postgres
  - and SQL Shell is the CLI version(which we shall often use)
  
  ***Step4:*** Now just open you CMD or Any other windows CLI and type ***psql***
- ![enter image description here](https://i.ibb.co/JkvdNds/ins4-1.png)
+ ![enter image description here](https://i.ibb.co/JkvdNds/ins4-1.png =550x)
 Command is not recognized!!! 😱 COOL DOWN i got you 🤓
 
 
@@ -28,9 +31,10 @@ Goto installation directory and copy the **bin** location
 Now simply add this to your system/user environment.  (You may go through [this](https://www.architectryan.com/2018/03/17/add-to-the-path-on-windows-10/) guide if you are new to environment variable setup)
 
 OK, NOW AGAIN, open you CMD or Any other windows CLI and type _**psql**_
-![ins3](https://i.ibb.co/thD7tst/ins3.jpg)
+![ins3](https://i.ibb.co/thD7tst/ins3.jpg =420x)
+
 Hola!!! Now the command is recognized. Enter the password.
-![ins4](https://i.ibb.co/BwBHG8h/ins4.png)
+![ins4](https://i.ibb.co/BwBHG8h/ins4.png =700x)
 GOT another one!! 😛 ... Again Got YOU.
 
 ## Set the Default username
@@ -38,5 +42,5 @@ Open you CLI and just type
 
      set PGUSER=postgres
   Finally type ***psql*** and enter the pass.
-  ![ins5](https://i.ibb.co/1bpFZpM/ins5.png)
+  ![ins5](https://i.ibb.co/1bpFZpM/ins5.png =800x)
   Congratulations!!! You have overcome all the hassles 🎉
